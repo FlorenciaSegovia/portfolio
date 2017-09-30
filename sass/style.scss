@@ -1,0 +1,320 @@
+@import "reset";
+@import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+
+
+
+.contenedor {
+	    max-width: 100%;
+    	font-family: 'Roboto', serif;
+    	font-weight: bold;
+    	
+}
+
+header{
+
+	.contenedor{
+		    padding:20px 78px 17px 60px;
+		    position: fixed;
+		    background-color: rgb(255, 255, 255);
+		    z-index: 1;
+	
+	h2{
+		color:black;
+		font-family: 'Pacifico', cursive;
+		font-size: 30px;  
+		display: inline-block;  
+		padding-left: 50px;
+	}
+
+	.secciones{
+		display: flex;
+		float: right;
+		padding-right:10px;
+
+
+	.menu{
+	    display: flex;
+    	padding-left: 435px;
+
+	li{
+		padding: 10px;
+	}
+	}
+	}
+	}
+}
+
+.home{
+	.contenedor{
+		background-image: url('../imagenes/saludo.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		align-items: center;
+	
+		h1{
+    	font-family: 'Roboto', serif;
+    	font-weight: 700;
+    	font-size: 138px;
+    	color: white;
+    	padding-left: 475px;
+    	padding-top: 160px;
+    	padding-bottom: 6px;
+		}
+
+		p{
+		font-family: 'Roboto', serif;
+    	font-size: 21px;
+    	color: white;
+    	align-items: center;
+    	padding-left: 360px;
+    	padding-bottom: 310px;
+    	font-weight: normal;
+		}
+}
+}
+
+.whoiam{
+		background-image: url('../imagenes/whoiam.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		
+		.parrafo1{
+				article{
+				    background: white;
+    				width: 400px;
+    				padding: 139px 50px;
+    				position: absolute;
+    				margin-top: 222px;
+    				margin-left: 140px;
+				}
+
+				h2{
+					font-family: 'Roboto', serif;
+				    font-size: 40px;
+				    font-weight: bold;
+				    color: black;
+				    padding-left: 190px;
+				    padding-top: 260px;
+				    padding-bottom: 12px;
+				    position: relative;
+				}
+
+				p{
+				    font-family: 'Roboto', serif;
+				    font-size: 15px;
+				    font-weight: bold;
+				    color: black;
+				    width: 400px;
+				    line-height: 24px;
+				    padding-left: 190px;
+				    padding-bottom: 210px;
+				    position: relative;
+				}
+
+
+			}
+		}
+		
+.whatido{
+		background-image: url('../imagenes/whatido.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+
+		.parrafo2{
+				article{
+				background: white;
+			    width: 400px;
+			    padding: 105px 50px;
+			    position: absolute;
+			    margin-top: 220px;
+			    margin-left: 600px;
+				}
+
+				h2{
+				font-family: 'Roboto', serif;
+    			font-size: 40px;
+    			font-weight: bold;
+    			color: black;
+    			padding-left: 650px;
+    			padding-top: 260px;
+    			position: relative;
+				}
+
+				p{
+				font-family: 'Roboto', serif;
+    			font-size: 15px;
+    			font-weight: bold;
+    			color: black;
+    			width: 400px;
+    			line-height: 24px;
+    			padding-left: 650px;
+    			padding-bottom:360px;
+    			padding-top: 15px;
+    			position: relative;	
+				}
+		}
+		
+	
+	
+		}
+
+.work{
+	text-align: center;
+
+	h2{
+		font-family: 'Roboto', serif;
+    	font-size: 40px;
+    	font-weight: bold;
+    	color: black;
+    	margin-top: 80px;
+    	margin-right: 50px;
+    	padding-bottom: 15px;
+    	}
+
+    p{
+    	font-family: 'Roboto', serif;
+    	font-size: 15px;
+    	font-weight: bold;
+    	color: black;
+    	width: 600px;
+    	margin-left: 345px;
+    	line-height: 24px;
+    } 
+}
+
+.categorias{
+    display:flex;
+    	
+    	img{
+    		padding: 30px;
+   			margin-left: 60px;
+   			margin-bottom: 95px;
+ 		}	
+	}
+	
+
+
+   
+ 
+
+.contact{
+
+
+	h2{
+		font-family: 'Roboto', serif;
+    	font-size: 40px;
+    	font-weight: bold;
+    	color: black;
+    	padding-left: 532px;
+	}
+
+	p{
+		font-family: 'Roboto', serif;
+    	font-size: 15px;
+    	font-weight: bold;
+    	color: black;
+    	text-align: center;
+    	padding-top: 20px;
+	}
+
+}
+
+.formulario{
+
+	padding-top: 95px;
+    padding-bottom: 110px;
+    margin-left: 345px;
+
+    .espacio{
+    	padding-bottom: 10px;
+
+		label{
+		font-family: 'Roboto', serif;
+    	font-size: 15px;
+    	font-weight: bold;    	
+		}
+
+		input{
+	    display: block;
+	    width: 600px;
+	    height: 34px;
+	    padding: 6px 12px;
+	    margin-bottom: 10px;
+	    font-size: 14px;
+	    line-height: 1.42857143;
+	    color: #555;
+	    background-color: #fff;
+	    background-image: none;
+	    border: 1px solid #ccc;
+	    border-radius: 4px;    
+	    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+		}
+	}
+}
+
+
+.social {
+	background-color: $background-black;
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+	height: 10vh;
+	h2 {
+	color: white;
+	text-align: center;
+	margin-bottom: 2%;
+	font-family: $font;
+	font-size: 30px;
+	}
+}
+
+
+.social-bar {
+	ul {
+		display:flex;
+		align-items: center;	
+		li {
+			margin: 0 15px;
+			border-radius: 50%;
+			font-size: 30px;
+			transition: 0.4s;
+			div {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: white;
+				height: 50px;
+				width: 50px;
+			}
+			&:first-child {
+				background: $facebook-color;
+			}
+			&:nth-child(2) {
+				background: $twitter-color;
+			}
+			&:nth-child(3) {
+				background: $linkedin-color;
+			}
+			&:nth-child(4) {
+				background: $pinterest-color;
+			}
+			&:last-child {
+				background: $google-color;
+			}
+			&:hover {
+				background: $hover-color;
+				transform: scale(1.2);
+			}
+			a{
+				text-decoration: none;
+			}
+		}
+	}
+}
