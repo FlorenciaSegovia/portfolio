@@ -54,7 +54,7 @@ table {
   font-weight: bold; }
 
 header .contenedor {
-  padding: 20px 78px 17px 60px;
+  padding: 20px 94px 17px 60px;
   position: fixed;
   background-color: white;
   z-index: 1; }
@@ -86,7 +86,7 @@ header .contenedor {
     font-size: 138px;
     color: white;
     padding-left: 475px;
-    padding-top: 160px;
+    padding-top: 187px;
     padding-bottom: 6px; }
   .home .contenedor p {
     font-family: 'Roboto', serif;
@@ -179,13 +179,31 @@ header .contenedor {
     width: 600px;
     margin-left: 345px;
     line-height: 24px; }
-
-.categorias {
-  display: flex; }
-  .categorias img {
-    padding: 30px;
-    margin-left: 60px;
-    margin-bottom: 95px; }
+  .work .categorias {
+    display: flex; }
+    .work .categorias img {
+      padding: 30px;
+      margin-left: 60px;
+      margin-bottom: 95px; }
+  .work .hover {
+    display: flex;
+    margin-top: -425px;
+    margin-bottom: 133px; }
+    .work .hover img:first-child {
+      padding-left: 90px;
+      opacity: 0;
+      filter: alpha(opacity=50); }
+    .work .hover img:nth-child(2) {
+      padding-left: 120px;
+      opacity: 0;
+      filter: alpha(opacity=50); }
+    .work .hover img:last-child {
+      padding-left: 120px;
+      opacity: 0;
+      filter: alpha(opacity=50); }
+    .work .hover img:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100); }
 
 .contact h2 {
   font-family: 'Roboto', serif;
